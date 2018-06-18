@@ -2,8 +2,8 @@ README for qlClearCache 0.1.0
 By Sriranga Veeraraghavan <ranga@calalum.org>
 
 qlClearCache is a LaunchAgent plist file for MacOSX Lion (10.7) newer
-that clears the QuickLook cache every two hours.qlClearCache.  For more
-information, see:
+that clears the QuickLook cache every two hours.  For more information,
+see:
 
 https://objective-see.com/blog/blog_0x30.html
 
@@ -14,10 +14,6 @@ $ make install
 To run (if you didn't run "make install", or "make install" didn't work):
 
 $ /bin/launchctl load ~/Library/LaunchAgents/org.calalum.ranga.qlclearcache.plist
-
-or
-
-Log out and log back in
 
 History:
 
